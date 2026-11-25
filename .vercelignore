@@ -1,0 +1,8 @@
+# Ignore original unoptimized Meta AI artifact export
+PT.Satu Tujuh Teknik.html
+
+# Ignore git & OS metadata
+.git
+.gitignore
+.DS_Store
+Thumbs.db
