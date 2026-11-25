@@ -1,0 +1,11 @@
+# Dependencies & Build
+node_modules/
+.vercel/
+.env*
+
+# Original unoptimized raw files (optional backup)
+# "PT.Satu Tujuh Teknik.html"
+
+# OS metadata
+.DS_Store
+Thumbs.db
