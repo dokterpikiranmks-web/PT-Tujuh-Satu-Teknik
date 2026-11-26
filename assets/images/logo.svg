@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="silverRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="35%" stop-color="#94A3B8"/>
+      <stop offset="70%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#64748B"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#B91C1C"/>
+    </linearGradient>
+    <filter id="subtleShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="1" dy="2" stdDeviation="1.5" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Outer Silver/Metallic Ring -->
+  <circle cx="60" cy="60" r="58" fill="url(#silverRing)"/>
+  <circle cx="60" cy="60" r="53" fill="#FFFFFF"/>
+  <!-- Cyan Accent Ring -->
+  <circle cx="60" cy="60" r="50" fill="none" stroke="#0284C7" stroke-width="2.5"/>
+
+  <!-- Background Transmission Tower Silhouette (Subtle) -->
+  <g stroke="#CBD5E1" stroke-width="1.2" opacity="0.85" fill="none">
+    <line x1="60" y1="26" x2="60" y2="94"/>
+    <line x1="48" y1="94" x2="60" y2="30"/>
+    <line x1="72" y1="94" x2="60" y2="30"/>
+    <line x1="51" y1="80" x2="69" y2="80"/>
+    <line x1="54" y1="65" x2="66" y2="65"/>
+    <line x1="56" y1="50" x2="64" y2="50"/>
+    <line x1="51" y1="80" x2="66" y2="65"/>
+    <line x1="69" y1="80" x2="54" y2="65"/>
+  </g>
+
+  <!-- Top Curved "CV" Text -->
+  <text x="60" y="27" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="12" fill="#15803D" text-anchor="middle" letter-spacing="4">CV</text>
+
+  <!-- Bold Red "71" Monogram -->
+  <!-- Number 7 -->
+  <path d="M 32 38 L 62 38 L 47 78 L 36 78 L 49 46 L 32 46 Z" fill="url(#redGrad)" filter="url(#subtleShadow)"/>
+  <!-- Number 1 -->
+  <path d="M 64 45 L 72 38 L 76 38 L 76 78 L 66 78 L 66 45 Z" fill="url(#redGrad)" filter="url(#subtleShadow)"/>
+
+  <!-- Cursive / Serif "Tehnik" in Dark Green -->
+  <text x="68" y="88" font-family="'Brush Script MT', 'Segoe Script', cursive, serif" font-weight="bold" font-size="13" font-style="italic" fill="#166534" text-anchor="start">Tehnik</text>
+</svg>
